@@ -1,0 +1,4897 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Stanford University Explore Courses</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic" />
+<link rel="stylesheet" href="https://explorecourses.stanford.edu/css/crsearch.css.optimized.432d26bfd847cc7b.css" type="text/css"  />
+
+					
+					
+					
+</head>
+<body id="mainpage">
+
+  
+
+<!--  HEADER  -->
+
+	<div id="header">
+	  <div class="wrap">
+		<div id="topNav">
+			<div id="adminNav">&nbsp;</div>
+			<a href="https://explorecourses.stanford.edu/about">About</a> |
+			
+				
+					<a href="http://exploredegrees.stanford.edu">Explore Degrees</a>
+				
+				
+			
+			|
+			
+				
+					<a href="https://explorecourses.stanford.edu/login?redirect=https%3A%2F%2Fexplorecourses.stanford.edu%2Fmyprofile">Sign in</a>
+				
+				
+			
+		</div>
+		<div id="logo">
+			<a href="/"><img src="https://explorecourses.stanford.edu/images/stanford-white.f5b5e52b436b2da0.png" alt="Stanford University"  /></a>
+		</div>
+		<div id="sitename">
+			<div id="bulletintext">
+				<a href="/" style="font-family: inherit; line-height: 1em;">Bulletin<small style="font-family: inherit; line-height: 1.4em;">ExploreCourses</small></a>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+
+
+  <!--  MAIN PAGE CONTAINER  -->
+  <div id="container">	
+	  
+	  <!--  SEARCH / NAV BAR -->
+	  <div id="topRow">
+	    
+	    
+	
+		<table id="years">
+	      <tr>
+	      
+	      
+	      	
+	        
+	        	
+	        	<td><a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=0&amp;filter-coursestatus-Active=on&amp;collapse=&amp;academicYear=20142015">2014-2015</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	
+	        	<td><a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=0&amp;filter-coursestatus-Active=on&amp;collapse=&amp;academicYear=20152016">2015-2016</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	
+	        	<td><a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=0&amp;filter-coursestatus-Active=on&amp;collapse=&amp;academicYear=20162017">2016-2017</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        
+	        	
+	        	<td><a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=0&amp;filter-coursestatus-Active=on&amp;collapse=&amp;academicYear=20172018">2017-2018</a></td>
+	        
+	      
+	      
+	      
+	      	
+	        	<td class="selected"><a href="#" onclick="return false;">2018-2019</a></td>
+	        
+	        
+	      
+	      
+	      </tr>
+	    </table>
+	
+	    
+	    <table id="topControls">
+	      <tr>
+	      	<td class="left"></td>
+	        <td class="content" id="searchbox">
+	    	  
+
+<form id="coursesearch" method="get" action="search" onsubmit="addCollapsed();">
+  <div>
+  	
+  		
+		
+			<input type="hidden" name="view" value="catalog"/>
+		
+	
+	
+	<input type="hidden" name="filter-coursestatus-Active" value="on" />
+	
+    <input type="hidden" name="page" value="0" />
+    <input type="hidden" name="catalog" value="" />
+    <input type="hidden" name="academicYear" value="20182019" />
+    <input class="inputBox" onfocus="searchFocus()" onblur="searchBlur()" type="text" title="search" value="LINGUIST"  name="q" id="search_courses_input" alt="Search Courses" />
+    <input type="hidden" name="collapse" id="collapsedFiltersSearch" value="" />
+    <input id="submit" type="submit" value="go" />
+  </div>
+</form>
+
+<script type="text/javascript">
+input = document.getElementById('search_courses_input');
+var defaultText = 'course name, instructor, title, or keyword...';
+
+searchFocus = function()
+{
+	if (input.value == defaultText)
+	{
+		input.value = '';
+	}
+};
+
+searchBlur = function()
+{
+	if (input.value == '')
+	{
+		input.value = defaultText;
+	}
+};
+
+searchBlur();
+
+addCollapsed = function()
+{
+	document.getElementById('collapsedFiltersSearch').value = collapsed;
+};
+</script>
+	        </td>
+	        <td class="right"></td>
+	        
+	        <td class="spacer"></td>
+	        
+	        <td class="left"></td>
+	        
+	        <td class="content" id="browseByDepartment">
+	    	  <a href="browse"><span class="large">Browse</span><br />by subject...</a>
+	        </td>
+	        
+	        <td class="right"></td>
+	        
+	        <td class="spacer">&nbsp;</td>
+	        
+	        <td class="left">&nbsp;</td>
+	        <td class="content" id="browseBySchedule">
+	    	
+	    	  <a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&view=timeschedule&filter-term-Winter=on&filter-departmentcode-LINGUIST=on&filter-catalognumber-LINGUIST=on&academicYear=20182019&filter-term-Autumn=on&filter-term-Spring=on&page=0&filter-coursestatus-Active=on&collapse="><span class="large">Schedule</span><br />view...</a>
+	        </td>
+	        <td class="right"></td>
+	        
+	        <td class="spacer">&nbsp;</td>
+	        
+	        <td id="bubbles"></td>
+	      </tr>
+	    </table>
+	  </div>
+	  
+	  
+	  
+	  
+	
+	
+	
+	
+	
+	  
+	  
+	  
+	  
+
+<!--  RESULTS HEADER -->
+<div id="resultsHeader">
+	<h1 class="resultsSummary">
+		1 - 10 of 67 results for:
+		<span class="searchTerm">LINGUIST</span>
+		
+		
+	</h1>
+	<div class="printButton">
+		
+		
+		<a href="print;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&descriptions=on&filter-term-Winter=on&filter-departmentcode-LINGUIST=on&filter-catalognumber-LINGUIST=on&academicYear=20182019&filter-term-Autumn=on&filter-term-Spring=on&page=0&filter-coursestatus-Active=on&collapse=&catalog=" target="_blank"><img src="https://explorecourses.stanford.edu/images/printer_icon.40f8c3d6d3ce801f.png" alt="print preview"  /> printer friendly page</a>
+		
+	</div>
+</div>
+		  
+	<div id="mainContent">
+		    
+		<!--  RESULTS LIST -->
+    	<div id="searchResults">			
+    	
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 1:</span>
+					<span class="courseTitle">Introduction to Linguistics</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">This introductory-level course is targeted to students with no linguistics background.&nbsp;&nbsp;The course is designed to introduce and provide an overview of methods, findings, and problems in eight main areas of linguistics:&nbsp;Phonetics, Phonology, Morphology, Syntax, Semantics, Pragmatics, Psycholinguistics, and Sociolinguistics. Through lectures, in-class activities, and problem sets, you will come away with an overview of various linguistic phenomena, a sense of the diversity across languages, skills of linguistic analysis, an awareness of connections between these linguistics and&nbsp;applications of linguistics more broadly, and a basis for understanding the systematic, but complex nature of human language.&nbsp;&nbsp;While much of the course uses English to illuminate various points, you will be exposed to and learn to analyze languages other than English.&nbsp;&nbsp;By the end of the course, you should be able to explain similarities and differences of human languages, use basic linguistic terminology appropriately, apply the tools of linguistic analysis to problems and puzzles of linguistics, understand the questions that drive much research in linguistics, and explain how understanding linguistics is relevant for a variety of real-world phenomena.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Aut
+					  	|
+					
+					
+					    Units: 4
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci, WAY-SI
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+							<div id="shortInstructors_1" class="courseAttributes noDisplay">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/podesva" class="instructorLink">
+									Podesva, R. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/sumner" class="instructorLink">
+									Sumner, M. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/ctb77" class="instructorLink">
+									Brickhouse, C. (TA)
+									
+								...
+								<a href="#" onclick="showFullInstr(1); return false;">more instructors for LINGUIST 1 &raquo;</a>
+							</div>
+							<div id="fullInstructors_1" class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/podesva" class="instructorLink">
+									Podesva, R. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/sumner" class="instructorLink">
+									Sumner, M. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/ctb77" class="instructorLink">
+									Brickhouse, C. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/stgrim" class="instructorLink">
+									Grimberg, S. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/bkrejci" class="instructorLink">
+									Krejci, B. (TA)
+									
+								
+								<script type="text/javascript">
+								document.write('<a href="#" onclick="hideFullInstr(1); return false;">fewer instructors for LINGUIST 1 &laquo;</a>');
+								</script>
+							</div>
+							<script type="text/javascript">
+								document.getElementById("fullInstructors_1").style.display = "none";
+								document.getElementById("shortInstructors_1").style.display = "block";
+							</script>
+						
+						
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_1" href="#" onclick="return showSchedule(1)">Schedule for LINGUIST 1</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_1" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Autumn</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					4 units  |  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							25351
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 98 / 100
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Tue, Thu 9:00 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=260-113' target='_blank'>260-113</a> with Podesva, R. (PI); Sumner, M. (PI); Brickhouse, C. (TA); Grimberg, S. (TA); Krejci, B. (TA)
+					
+					
+						<br />
+						Exam Date/Time: 2018-12-12 8:30am - 11:30am (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Podesva, R. (PI); Sumner, M. (PI); Brickhouse, C. (TA); Grimberg, S. (TA); Krejci, B. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27902
+						
+					  |  
+					Section 02  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 16 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Fri 9:30 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=160-326' target='_blank'>160-326</a> with Grimberg, S. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Grimberg, S. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27903
+						
+					  |  
+					Section 03  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 12 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Fri 10:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=160-326' target='_blank'>160-326</a> with Grimberg, S. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Grimberg, S. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27904
+						
+					  |  
+					Section 04  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 19 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Thu 10:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=380-380D' target='_blank'>380-380D</a> with Krejci, B. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Krejci, B. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27905
+						
+					  |  
+					Section 05  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 16 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Thu 4:30 PM - 5:20 PM at <a href='http://campus-map.stanford.edu/?srch=460-334' target='_blank'>460-334</a> with Krejci, B. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Krejci, B. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27906
+						
+					  |  
+					Section 06  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 21 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Thu 10:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=160-318' target='_blank'>160-318</a> with Brickhouse, C. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Brickhouse, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 1  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SI  |  
+					Class #
+					
+						
+						
+							27907
+						
+					  |  
+					Section 07  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 14 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Thu 4:30 PM - 5:20 PM at <a href='http://campus-map.stanford.edu/?srch=380-381T' target='_blank'>380-381T</a> with Brickhouse, C. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Brickhouse, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 30N:</span>
+					<span class="courseTitle">Linguistic Meaning and the Law</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">We will investigate how inherent properties of language, such as ambiguity, vagueness and context-dependence, play into the meaning of a legal text, and how the meaning of a law can remain invariant while its range of application can change with the facts and with our discovery of what the facts are. Our focus will be on the perspective linguistic analysis brings to legal theory, addressing current controversies surrounding different conceptions of `textualism&iquest; and drawing on well-known examples of legal reasoning about language in cases of identity fraud, obstruction of justice and genocide.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Win
+					  	|
+					
+					
+					    Units: 3
+					    |
+					
+					
+						UG Reqs: WAY-FR
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/cleoc" class="instructorLink">
+									Condoravdi, C. (PI)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_2" href="#" onclick="return showSchedule(2)">Schedule for LINGUIST 30N</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_2" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Winter</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 30N  |  
+					3 units  |  
+					UG Reqs: WAY-FR  |  
+					Class #
+					
+						
+						
+							30915
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					ISF
+					
+						| Students enrolled: 13 / 16
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue, Thu 3:00 PM - 4:20 PM at <a href='http://campus-map.stanford.edu/?srch=50-51B' target='_blank'>50-51B</a> with Condoravdi, C. (PI)
+					
+					
+						<br />
+						Exam Date/Time: 2019-03-19 3:30pm - 6:30pm (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Condoravdi, C. (PI)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Introductory Seminar. Preference to first-year students; sophomores admitted if space available. Advance sign-up process and deadlines at http://introsems.stanford.edu. Preference to freshmen.
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 35:</span>
+					<span class="courseTitle">Minds and Machines (PHIL 99, PSYCH 35, SYMSYS 1, SYMSYS 200)</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">(Formerly 
+<a href="search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;q=SYMSYS100">SYMSYS 100</a>). An overview of the interdisciplinary study of cognition, information, communication, and language, with an emphasis on foundational issues: What are minds? What is computation? What are rationality and intelligence? Can we predict human behavior? Can computers be truly intelligent? How do people and technology interact, and how might they do so in the future? Lectures focus on how the methods of philosophy, mathematics, empirical research, and computational modeling are used to study minds and machines. Undergraduates considering a major in symbolic systems should take this course as early as possible in their program of study.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Win, Sum
+					  	|
+					
+					
+					    Units: 4
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci, WAY-FR
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+							<div id="shortInstructors_3" class="courseAttributes noDisplay">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/dmg1" class="instructorLink">
+									Gottlieb, D. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/paulsko" class="instructorLink">
+									Skokowski, P. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/julian42" class="instructorLink">
+									Alvarez, J. (TA)
+									
+								...
+								<a href="#" onclick="showFullInstr(3); return false;">more instructors for LINGUIST 35 &raquo;</a>
+							</div>
+							<div id="fullInstructors_3" class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/dmg1" class="instructorLink">
+									Gottlieb, D. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/paulsko" class="instructorLink">
+									Skokowski, P. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/julian42" class="instructorLink">
+									Alvarez, J. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/lsambuy" class="instructorLink">
+									Balbo Bertone di Sambuy, L. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/nbarb" class="instructorLink">
+									Barbier, N. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/pgarzon" class="instructorLink">
+									Garzon, P. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/leelas" class="instructorLink">
+									Srinivasan, L. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/ithobani" class="instructorLink">
+									Thobani, I. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/ewallack" class="instructorLink">
+									Wallack, E. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/thomascy" class="instructorLink">
+									Yim, T. (TA)
+									
+								
+								<script type="text/javascript">
+								document.write('<a href="#" onclick="hideFullInstr(3); return false;">fewer instructors for LINGUIST 35 &laquo;</a>');
+								</script>
+							</div>
+							<script type="text/javascript">
+								document.getElementById("fullInstructors_3").style.display = "none";
+								document.getElementById("shortInstructors_3").style.display = "block";
+							</script>
+						
+						
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_3" href="#" onclick="return showSchedule(3)">Schedule for LINGUIST 35</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_3" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Winter</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					4 units  |  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							31530
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 1
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue, Thu 10:30 AM - 11:50 AM at <a href='http://campus-map.stanford.edu/?srch=Cubberley+Auditorium' target='_blank'>Cubberley Auditorium</a> with Skokowski, P. (PI)
+					
+					
+						<br />
+						Exam Date/Time: 2019-03-20 12:15pm - 3:15pm (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Skokowski, P. (PI)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34589
+						
+					  |  
+					Section 02  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 9:30 AM - 10:20 AM with Garzon, P. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Garzon, P. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34660
+						
+					  |  
+					Section 03  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 10:30 AM - 11:20 AM with Alvarez, J. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Alvarez, J. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34661
+						
+					  |  
+					Section 04  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 11:30 AM - 12:20 PM with Alvarez, J. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Alvarez, J. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34662
+						
+					  |  
+					Section 05  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 1:30 PM - 2:20 PM with Srinivasan, L. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Srinivasan, L. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34663
+						
+					  |  
+					Section 06  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 3:30 PM - 4:20 PM with Balbo Bertone di Sambuy, L. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Balbo Bertone di Sambuy, L. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34664
+						
+					  |  
+					Section 07  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 5:30 PM - 6:20 PM with Yim, T. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Yim, T. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34665
+						
+					  |  
+					Section 08  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 12:30 PM - 1:20 PM with Wallack, E. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Wallack, E. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34666
+						
+					  |  
+					Section 09  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon 10:30 AM - 11:20 AM with Garzon, P. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Garzon, P. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34667
+						
+					  |  
+					Section 10  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue 4:30 PM - 5:20 PM with Barbier, N. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Barbier, N. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34668
+						
+					  |  
+					Section 11  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue 5:30 PM - 6:20 PM with Barbier, N. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Barbier, N. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34676
+						
+					  |  
+					Section 12  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue 4:30 PM - 5:20 PM with Yim, T. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Yim, T. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34677
+						
+					  |  
+					Section 13  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 9:30 AM - 10:20 AM with Thobani, I. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Thobani, I. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34678
+						
+					  |  
+					Section 14  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 10:30 AM - 11:20 AM with Thobani, I. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Thobani, I. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34679
+						
+					  |  
+					Section 15  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 11:30 AM - 12:20 PM with Wallack, E. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Wallack, E. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34680
+						
+					  |  
+					Section 16  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 1:30 PM - 2:20 PM with Srinivasan, L. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Srinivasan, L. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							34681
+						
+					  |  
+					Section 17  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Wed 3:30 PM - 4:20 PM with Balbo Bertone di Sambuy, L. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Balbo Bertone di Sambuy, L. (TA)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Please use the same room that has been reserved for this corresponding Symsys 1 section.
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Summer</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 35  |  
+					4 units  |  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							23494
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 5
+					
+					
+					
+						<br /> 06/24/2019 - 08/15/2019 Tue, Thu 10:30 AM - 11:50 AM at <a href='http://campus-map.stanford.edu/?srch=200-303' target='_blank'>200-303</a> with Gottlieb, D. (PI)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Gottlieb, D. (PI)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 47N:</span>
+					<span class="courseTitle">Languages, Dialects, Speakers</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Preference to freshmen. Variation and change in languages from around the world; language and thought; variation in sound patterns and grammatical structures; linguistic and social structures of variation; how languages differ from one another and how issues in linguistics connect to other social and cultural issues; the systematic study of language.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Aut
+					  	|
+					
+					
+					    Units: 3
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci
+						|
+					
+					
+						Grading: Letter (ABCD/NP)
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/anttila" class="instructorLink">
+									Anttila, A. (PI)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_4" href="#" onclick="return showSchedule(4)">Schedule for LINGUIST 47N</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_4" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Autumn</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 47N  |  
+					3 units  |  
+					UG Reqs: GER:DB-SocSci  |  
+					Class #
+					
+						
+						
+							29383
+						
+					  |  
+					Section 01  |
+					Grading: Letter (ABCD/NP) |  
+					ISF
+					
+						| Students enrolled: 14 / 20
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Mon, Wed 9:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=School+of+Education+130' target='_blank'>School of Education 130</a> with Anttila, A. (PI)
+					
+					
+						<br />
+						Exam Date/Time: 2018-12-11 8:30am - 11:30am (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Anttila, A. (PI)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Introductory Seminar. Preference to first-year students; sophomores admitted if space available. Advance sign-up process and deadlines at http://introsems.stanford.edu. Preference to freshmen.
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 55N:</span>
+					<span class="courseTitle">Language in the City</span>
+					</h2>
+					
+					
+						
+							<div id="shortDescription_5" class="courseDescription noDisplay">
+								Language communicates a great deal more than the meaning of our words. Our regional accents, for example, offer clues about where we grew up. And even though accents are usually labeled in geographical terms, their symbolic meanings extend far beyond mere coordinates on a map. When we hear a New Yorker, we not only wonder whether they&iquest;re from Brooklyn, but also conjecture about the kind of person they are: they might prefer to walk down the street quickly over strolling, they might enjoy lively conversations where people talk over one another, and they might tend to express their opinions bluntly. This seminar explores the linguistic practices and social meaning of accents spoken in San Francisco. nClass participants will collectively choose a neighborhood in San Francisco for in-depth examination. Through a series of field trips (once every two or three weeks), students will document the varieties of English spoken by lifelong residents of the neighborhood. Field assignments will cons
+								<a href="#" style="color: #2774ab" onclick="showFull(5); return false;">more &raquo;</a>
+							</div>
+							<div id="fullDescription_5" class="courseDescription">
+								Language communicates a great deal more than the meaning of our words. Our regional accents, for example, offer clues about where we grew up. And even though accents are usually labeled in geographical terms, their symbolic meanings extend far beyond mere coordinates on a map. When we hear a New Yorker, we not only wonder whether they&iquest;re from Brooklyn, but also conjecture about the kind of person they are: they might prefer to walk down the street quickly over strolling, they might enjoy lively conversations where people talk over one another, and they might tend to express their opinions bluntly. This seminar explores the linguistic practices and social meaning of accents spoken in San Francisco. nClass participants will collectively choose a neighborhood in San Francisco for in-depth examination. Through a series of field trips (once every two or three weeks), students will document the varieties of English spoken by lifelong residents of the neighborhood. Field assignments will consist primarily of observation and audio-recorded interviews. Interviews will serve as data for linguistic analysis (transcription, quantitative analysis of a linguistic feature of interest) throughout the term. Linguistic patterns will be analyzed in relation to salient social issues in the community, which will be identified in both interview content and historical records.nUpon completing the seminar, students will have (a) learned how to treat language as an object of scientific analysis, (b) developed an understanding of the social ramifications of linguistic practice, (c) gained fieldwork skills in general and interviewing skills in particular, and (d) come to appreciate the diversity of experiences in an urban community near Stanford.
+								
+							</div>
+							<script type="text/javascript">
+								document.getElementById("fullDescription_5").style.display = "none";
+								document.getElementById("shortDescription_5").style.display = "block";
+							</script>
+						
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Spr
+					  	|
+					
+					
+					    Units: 3
+					    |
+					
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/podesva" class="instructorLink">
+									Podesva, R. (PI)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_5" href="#" onclick="return showSchedule(5)">Schedule for LINGUIST 55N</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_5" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Spring</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 55N  |  
+					3 units  |  
+					  
+					Class #
+					
+						
+						
+							29302
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					ISF
+					
+						| Students enrolled: 6
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Tue, Thu 9:00 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=300-303' target='_blank'>300-303</a> with Podesva, R. (PI)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Podesva, R. (PI)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Introductory Seminar. Preference to first-year students; sophomores admitted if space available. Advance sign-up process and deadlines at http://introsems.stanford.edu. Preference to freshmen.
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 65:</span>
+					<span class="courseTitle">African American Vernacular English (AFRICAAM 21, CSRE 21, LINGUIST 265)</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Vocabulary, pronunciation and grammatical features of the systematic and vibrant vernacular English [AAVE] spoken by African Americans in the US, its historical relation to British dialects, and to English creoles spoken on the S. Carolina Sea Islands (Gullah), in the Caribbean, and in W. Africa. The course will also explore the role of AAVE in the Living Arts of African Americans, as exemplified by writers, preachers, comedians and actors, singers, toasters and rappers, and its connections with challenges that AAVE speakers face in the classroom and courtroom. Service Learning Course (certified by Haas Center). UNITS: 3-5 units. Most students should register for 4 units. Students willing and able to tutor an AAVE speaking child in East Palo Alto and write an additional paper about the experience may register for 5 units, but should consult the instructor first. Students who, for exceptional reasons, need a reduced course load, may request a reduction to 3 units, but more of their course grade will come from exams, and they will be excluded from group participation in the popular AAVE Happenin at the end of the course.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Spr
+					  	|
+					
+					
+					    Units: 3-5
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/rickford" class="instructorLink">
+									Rickford, J. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/ma0212" class="instructorLink">
+									Anderson, M. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/jmendels" class="instructorLink">
+									Mendelsohn, J. (TA)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/zmengesh" class="instructorLink">
+									Mengesha, Z. (TA)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_6" href="#" onclick="return showSchedule(6)">Schedule for LINGUIST 65</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_6" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Spring</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 65  |  
+					3-5 units  |  
+					UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED  |  
+					Class #
+					
+						
+						
+							29387
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 17 / 30
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Tue, Thu 3:00 PM - 4:20 PM at <a href='http://campus-map.stanford.edu/?srch=160-124' target='_blank'>160-124</a> with Rickford, J. (PI); Mendelsohn, J. (TA); Mengesha, Z. (TA)
+					
+					
+						<br />
+						Exam Date/Time: 2019-06-08 3:30pm - 6:30pm (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Rickford, J. (PI); Mendelsohn, J. (TA); Mengesha, Z. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 65  |  
+					  
+					UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED  |  
+					Class #
+					
+						
+						
+							29388
+						
+					  |  
+					Section 02  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 8
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Tue 4:30 PM - 5:20 PM at <a href='http://campus-map.stanford.edu/?srch=160-319' target='_blank'>160-319</a> with Mendelsohn, J. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Mendelsohn, J. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 65  |  
+					3-5 units  |  
+					UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED  |  
+					Class #
+					
+						
+							<span style="text-decoration: line-through;">34600</span> (CANCELLED)
+						
+						
+					  |  
+					Section 03  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+					
+					
+						<br />  -    - 
+					
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Notes: </span>   This class section has been cancelled!
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 65  |  
+					  
+					UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED  |  
+					Class #
+					
+						
+						
+							34601
+						
+					  |  
+					Section 04  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Thu 6:30 PM - 7:20 PM at <a href='http://campus-map.stanford.edu/?srch=160-328' target='_blank'>160-328</a> with Mengesha, Z. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Mengesha, Z. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 65  |  
+					  
+					UG Reqs: GER:DB-SocSci, GER:EC-AmerCul, WAY-ED  |  
+					Class #
+					
+						
+						
+							34602
+						
+					  |  
+					Section 05  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 2
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Wed 4:30 PM - 5:20 PM at <a href='http://campus-map.stanford.edu/?srch=160-323' target='_blank'>160-323</a> with Anderson, M. (TA); Mengesha, Z. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Anderson, M. (TA); Mengesha, Z. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 83Q:</span>
+					<span class="courseTitle">Translation</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Preference to Sophomores. What is a translation? The increased need for translations in the modern world due to factors such as tourism and terrorism, localization and globalization, diplomacy and treaties, law and religion, and literature and science. How to meet this need; different kinds of translation for different purposes; what makes one translation better than another; why some texts are more difficult to translate than others. Can some of this work be done by machines? Are there things that cannot be said in some languages?</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Win
+					  	|
+					
+					
+					    Units: 3
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/mjkay" class="instructorLink">
+									Kay, M. (PI)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_7" href="#" onclick="return showSchedule(7)">Schedule for LINGUIST 83Q</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_7" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Winter</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 83Q  |  
+					3 units  |  
+					UG Reqs: GER:DB-SocSci  |  
+					Class #
+					
+						
+						
+							30690
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					ISS
+					
+						| Students enrolled: 8
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Mon, Wed 3:30 PM - 5:20 PM at <a href='http://campus-map.stanford.edu/?srch=460-126' target='_blank'>460-126</a> with Kay, M. (PI)
+					
+					
+						<br />
+						Exam Date/Time: 2019-03-21 3:30pm - 6:30pm (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Kay, M. (PI)
+					
+					
+						<br />
+						<span class="boldText">Notes: </span> Introductory Seminar. Preference to sophomores; first-year students admitted if space available. Advance sign-up process and deadlines at http://introsems.stanford.edu. Preference to sophomores.
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 90:</span>
+					<span class="courseTitle">Teaching Spoken English</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Practical approach to teaching English to non-native speakers. Teaching principles and the features of English which present difficulties. Preparation of lessons, practice teaching in class, and tutoring of non-native speaker.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Spr
+					  	|
+					
+					
+					    Units: 3-4
+					    |
+					
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/kgeda" class="instructorLink">
+									Geda, K. (PI)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_8" href="#" onclick="return showSchedule(8)">Schedule for LINGUIST 90</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_8" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Spring</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 90  |  
+					3-4 units  |  
+					  
+					Class #
+					
+						
+						
+							21431
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 4
+					
+					
+					
+						<br /> 04/01/2019 - 06/05/2019 Tue, Thu 3:00 PM - 4:20 PM at <a href='http://campus-map.stanford.edu/?srch=460-334' target='_blank'>460-334</a> with Geda, K. (PI)
+					
+					
+						<br />
+						Exam Date/Time: 2019-06-08 3:30pm - 6:30pm (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Geda, K. (PI)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    	
+		    		
+		    	
+		    
+		    <div class="searchResult">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 105:</span>
+					<span class="courseTitle">Phonetics (LINGUIST 205A)</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Phonetics is the systematic study of speech. In this class, we will learn about the physical gestures and timing involved in the articulation of spoken language and about the resulting acoustic signal that is decoded into linguistic units by the human auditory system. The class is structured into two parts: A practical lab component, and a class component. This course highlights both the complexity of the physical nature of producing spoken language, and the highly variable acoustic signal that is interpreted by listeners as language. By the end of this course, you should: (1) Understand the process of preparing an utterance to articulating it; (2) Understand the basic acoustic properties of speech; (3) Provide detailed phonetic transcriptions of speech; (4) Produce and understand the gestures involved in nearly all of the world's speech sounds, and (5) Understand the ways this knowledge can be used to advance our understanding of spoken language understanding by humans and machines.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Win
+					  	|
+					
+					
+					    Units: 4
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci, WAY-SMA
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/sumner" class="instructorLink">
+									Sumner, M. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/gratton" class="instructorLink">
+									Gratton, C. (TA)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_9" href="#" onclick="return showSchedule(9)">Schedule for LINGUIST 105</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_9" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Winter</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 105  |  
+					4 units  |  
+					UG Reqs: GER:DB-SocSci, WAY-SMA  |  
+					Class #
+					
+						
+						
+							27412
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 52 / 45
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Tue, Thu 9:00 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=School+of+Education+334' target='_blank'>School of Education 334</a> with Sumner, M. (PI); Gratton, C. (TA)
+					
+					
+						<br />
+						Exam Date/Time: 2019-03-20 8:30am - 11:30am (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Sumner, M. (PI); Gratton, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 105  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SMA  |  
+					Class #
+					
+						
+						
+							31460
+						
+					  |  
+					Section 02  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 17 / 18
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Thu 10:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=20-21G' target='_blank'>20-21G</a> with Gratton, C. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Gratton, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 105  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SMA  |  
+					Class #
+					
+						
+						
+							34415
+						
+					  |  
+					Section 03  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 19 / 18
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Fri 9:30 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=260-004' target='_blank'>260-004</a> with Gratton, C. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Gratton, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 105  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-SMA  |  
+					Class #
+					
+						
+						
+							34416
+						
+					  |  
+					Section 04  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 16 / 18
+					
+					
+					
+						<br /> 01/07/2019 - 03/15/2019 Fri 10:30 AM - 11:20 AM at <a href='http://campus-map.stanford.edu/?srch=260-004' target='_blank'>260-004</a> with Gratton, C. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Gratton, C. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+    	<!-- Did you know...  A course data API is available to students and faculty. This API allows developers to programmatically query the course database. For more information, please contact Jim (http://explorecourses.stanford.edu/instructor/jsproch). -->
+    		
+    			
+		    		
+		    	
+		    	
+		    
+		    <div class="searchResult-noBorder">
+			    <div class="courseInfo">
+			    	<h2>
+		        	<span class="courseNumber">LINGUIST 110:</span>
+					<span class="courseTitle">Introduction to Phonology</span>
+					</h2>
+					
+					
+						
+						
+							<div class="courseDescription">Introduction to the sound systems of the world's languages, their similarities and differences. Theories that account for the tacit generalizations that govern the sound patterns of languages.</div>
+						
+					
+					
+					<div class="courseAttributes">
+					
+					  	Terms: Aut
+					  	|
+					
+					
+					    Units: 4
+					    |
+					
+					
+						UG Reqs: GER:DB-SocSci, WAY-FR
+						|
+					
+					
+						Grading: Letter or Credit/No Credit
+					</div>
+					
+					
+					
+					
+						
+						
+						
+							<div class="courseAttributes">
+								Instructors:
+								
+									<a href="https://explorecourses.stanford.edu/instructor/anttila" class="instructorLink">
+									Anttila, A. (PI)
+									</a>; 
+								
+									<a href="https://explorecourses.stanford.edu/instructor/borgeson" class="instructorLink">
+									Borgeson, S. (TA)
+									</a>
+								
+							</div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="relatedLinks">
+				    	
+							<script type="text/javascript">
+								document.write('<a id="scheduleLink_10" href="#" onclick="return showSchedule(10)">Schedule for LINGUIST 110</a>');
+							</script>
+						
+				    </div>
+				    
+				    
+					<div id="schedule_10" style="display: none;">
+						
+
+
+
+<div class="sectionInfo">
+
+	<!--  SCHEDULE SECTIONS -->
+	
+		<div class="sectionContainer">
+			<h3 class="sectionContainerTerm">2018-2019 Autumn</h3>
+			<ul>
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 110  |  
+					4 units  |  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							27908
+						
+					  |  
+					Section 01  |
+					Grading: Letter or Credit/No Credit |  
+					LEC
+					
+						| Students enrolled: 18
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Tue, Thu 9:00 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=School+of+Education+334' target='_blank'>School of Education 334</a> with Anttila, A. (PI); Borgeson, S. (TA)
+					
+					
+						<br />
+						Exam Date/Time: 2018-12-12 8:30am - 11:30am (<a href="https://registrar.stanford.edu/students/final-exams">Exam Schedule</a>)
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Anttila, A. (PI); Borgeson, S. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			
+				<li class="sectionDetails">
+					LINGUIST 110  |  
+					  
+					UG Reqs: GER:DB-SocSci, WAY-FR  |  
+					Class #
+					
+						
+						
+							30123
+						
+					  |  
+					Section 02  |
+					Grading: Letter or Credit/No Credit |  
+					DIS
+					
+						| Students enrolled: 9
+					
+					
+					
+						<br /> 09/24/2018 - 12/07/2018 Wed 9:30 AM - 10:20 AM at <a href='http://campus-map.stanford.edu/?srch=200-107' target='_blank'>200-107</a> with Borgeson, S. (TA)
+					
+					
+					
+					
+					
+					
+						<br />
+						<span class="boldText">Instructors: </span> Borgeson, S. (TA)
+					
+					
+					
+					
+					
+				</li>
+				
+			
+			</ul>
+		</div>
+	
+		
+		
+</div>
+					</div>
+					
+				    
+			    </div>
+		    </div>
+	    
+		</div>
+		
+		
+
+
+<!--  FILTERS -->
+<div id="searchFilters">
+	<div class="filtesTitle">Filter Results:</div>	
+	
+	<div id="filtersContainer">
+		
+		<form id="coursesearch_filter" method="get" action="search">
+			<div>
+			<input type="hidden" name="q" value="LINGUIST" />
+			
+		  		
+				
+					<input type="hidden" name="view" value="catalog"/>
+				
+			
+			<input type="hidden" name="page" value="0" />
+			<input type="hidden" name="academicYear" value="20182019" />
+				
+					
+					
+					
+					
+						<a href="#" id="filterHeader_1" class="filterHeader" onclick="hideFilter(1); return false;">
+							term offered
+						</a>
+					
+					
+						<div class="relative">
+						<div id="filter_1" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+											
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-term-Autumn" name="filter-term-Autumn" type="checkbox" onclick="document.getElementById('filter_1').style.visibility='hidden'; document.getElementById('filterUpdate_1').style.display='block'; submitFilterForm();" checked="checked" />
+										<label for="filter-term-Autumn"> Autumn</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+											
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-term-Winter" name="filter-term-Winter" type="checkbox" onclick="document.getElementById('filter_1').style.visibility='hidden'; document.getElementById('filterUpdate_1').style.display='block'; submitFilterForm();" checked="checked" />
+										<label for="filter-term-Winter"> Winter</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+											
+										
+									
+										
+									
+										
+									
+										<input id="filter-term-Spring" name="filter-term-Spring" type="checkbox" onclick="document.getElementById('filter_1').style.visibility='hidden'; document.getElementById('filterUpdate_1').style.display='block'; submitFilterForm();" checked="checked" />
+										<label for="filter-term-Spring"> Spring</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-term-Summer" name="filter-term-Summer" type="checkbox" onclick="document.getElementById('filter_1').style.visibility='hidden'; document.getElementById('filterUpdate_1').style.display='block'; submitFilterForm();"  />
+										<label for="filter-term-Summer"> Summer</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+					<div id="filterUpdate_1" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_2" class="filterHeader" onclick="showFilter(2); return false;">
+							number of units
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_2" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-1" name="filter-units-1" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-1"> 1 unit</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-2" name="filter-units-2" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-2"> 2 units</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-3" name="filter-units-3" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-3"> 3 units</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-4" name="filter-units-4" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-4"> 4 units</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-5" name="filter-units-5" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-5"> 5 units</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-units-gt5" name="filter-units-gt5" type="checkbox" onclick="document.getElementById('filter_2').style.visibility='hidden'; document.getElementById('filterUpdate_2').style.display='block'; submitFilterForm();"  />
+										<label for="filter-units-gt5"> &gt;5 units</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_2").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_2" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_3" class="filterHeader" onclick="showFilter(3); return false;">
+							time offered
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_3" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-time-0" name="filter-time-0" type="checkbox" onclick="document.getElementById('filter_3').style.visibility='hidden'; document.getElementById('filterUpdate_3').style.display='block'; submitFilterForm();"  />
+										<label for="filter-time-0"> early morning (before 10am)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-time-1" name="filter-time-1" type="checkbox" onclick="document.getElementById('filter_3').style.visibility='hidden'; document.getElementById('filterUpdate_3').style.display='block'; submitFilterForm();"  />
+										<label for="filter-time-1"> morning (10am-12pm)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-time-2" name="filter-time-2" type="checkbox" onclick="document.getElementById('filter_3').style.visibility='hidden'; document.getElementById('filterUpdate_3').style.display='block'; submitFilterForm();"  />
+										<label for="filter-time-2"> lunchtime (12pm-2pm)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-time-3" name="filter-time-3" type="checkbox" onclick="document.getElementById('filter_3').style.visibility='hidden'; document.getElementById('filterUpdate_3').style.display='block'; submitFilterForm();"  />
+										<label for="filter-time-3"> afternoon (2pm-5pm)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-time-4" name="filter-time-4" type="checkbox" onclick="document.getElementById('filter_3').style.visibility='hidden'; document.getElementById('filterUpdate_3').style.display='block'; submitFilterForm();"  />
+										<label for="filter-time-4"> evening (after 5pm)</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_3").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_3" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_4" class="filterHeader" onclick="showFilter(4); return false;">
+							days
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_4" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-2" name="filter-day-2" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-2"> Monday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-3" name="filter-day-3" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-3"> Tuesday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-4" name="filter-day-4" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-4"> Wednesday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-5" name="filter-day-5" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-5"> Thursday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-6" name="filter-day-6" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-6"> Friday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-7" name="filter-day-7" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-7"> Saturday</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-day-1" name="filter-day-1" type="checkbox" onclick="document.getElementById('filter_4').style.visibility='hidden'; document.getElementById('filterUpdate_4').style.display='block'; submitFilterForm();"  />
+										<label for="filter-day-1"> Sunday</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_4").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_4" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_5" class="filterHeader" onclick="showFilter(5); return false;">
+							UG Requirements (GERs)
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_5" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYAII" name="filter-ger-WAYAII" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYAII"> WAY-A-II</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYAQR" name="filter-ger-WAYAQR" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYAQR"> WAY-AQR</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYCE" name="filter-ger-WAYCE" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYCE"> WAY-CE</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYED" name="filter-ger-WAYED" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYED"> WAY-ED</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYER" name="filter-ger-WAYER" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYER"> WAY-ER</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYFR" name="filter-ger-WAYFR" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYFR"> WAY-FR</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYSI" name="filter-ger-WAYSI" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYSI"> WAY-SI</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WAYSMA" name="filter-ger-WAYSMA" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WAYSMA"> WAY-SMA</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-Language" name="filter-ger-Language" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-Language"> Language</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-Writing1" name="filter-ger-Writing1" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-Writing1"> Writing 1</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-Writing2" name="filter-ger-Writing2" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-Writing2"> Writing 2</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-WritingSLE" name="filter-ger-WritingSLE" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-WritingSLE"> Writing SLE</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERDBHum" name="filter-ger-GERDBHum" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERDBHum"> DB:Hum</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERDBMath" name="filter-ger-GERDBMath" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERDBMath"> DB:Math</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERDBSocSci" name="filter-ger-GERDBSocSci" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERDBSocSci"> DB:SocSci</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERDBEngrAppSci" name="filter-ger-GERDBEngrAppSci" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERDBEngrAppSci"> DB:EngrAppSci</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERDBNatSci" name="filter-ger-GERDBNatSci" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERDBNatSci"> DB:NatSci</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERECEthicReas" name="filter-ger-GERECEthicReas" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERECEthicReas"> EC:EthicReas</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERECGlobalCom" name="filter-ger-GERECGlobalCom" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERECGlobalCom"> EC:GlobalCom</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERECAmerCul" name="filter-ger-GERECAmerCul" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERECAmerCul"> EC:AmerCul</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERECGender" name="filter-ger-GERECGender" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERECGender"> EC:Gender</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERIHUM1" name="filter-ger-GERIHUM1" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERIHUM1"> IHUM1</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERIHUM2" name="filter-ger-GERIHUM2" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERIHUM2"> IHUM2</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-ger-GERIHUM3" name="filter-ger-GERIHUM3" type="checkbox" onclick="document.getElementById('filter_5').style.visibility='hidden'; document.getElementById('filterUpdate_5').style.display='block'; submitFilterForm();"  />
+										<label for="filter-ger-GERIHUM3"> IHUM3</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_5").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_5" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_6" class="filterHeader" onclick="showFilter(6); return false;">
+							component
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_6" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-LEC" name="filter-component-LEC" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-LEC"> Lecture (LEC)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-SEM" name="filter-component-SEM" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-SEM"> Seminar (SEM)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-DIS" name="filter-component-DIS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-DIS"> Discussion Section (DIS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-LAB" name="filter-component-LAB" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-LAB"> Laboratory (LAB)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-LBS" name="filter-component-LBS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-LBS"> Lab Section (LBS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-ACT" name="filter-component-ACT" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-ACT"> Activity (ACT)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-CAS" name="filter-component-CAS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-CAS"> Case Study (CAS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-COL" name="filter-component-COL" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-COL"> Colloquium (COL)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-WKS" name="filter-component-WKS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-WKS"> Workshop (WKS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-INS" name="filter-component-INS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-INS"> Independent Study (INS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-IDS" name="filter-component-IDS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-IDS"> Intro Dial, Sophomore (IDS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-ISF" name="filter-component-ISF" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-ISF"> Intro Sem, Freshman (ISF)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-ISS" name="filter-component-ISS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-ISS"> Intro Sem, Sophomore (ISS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-ITR" name="filter-component-ITR" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-ITR"> Internship (ITR)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-API" name="filter-component-API" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-API"> Arts Intensive Program (API)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-LNG" name="filter-component-LNG" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-LNG"> Language (LNG)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-PRA" name="filter-component-PRA" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-PRA"> Practicum (PRA)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-PRC" name="filter-component-PRC" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-PRC"> Practicum (PRC)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-RES" name="filter-component-RES" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-RES"> Research (RES)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-SCS" name="filter-component-SCS" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-SCS"> Sophomore College (SCS)</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-component-TD" name="filter-component-TD" type="checkbox" onclick="document.getElementById('filter_6').style.visibility='hidden'; document.getElementById('filterUpdate_6').style.display='block'; submitFilterForm();"  />
+										<label for="filter-component-TD"> Thesis/Dissertation (T/D)</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_6").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_6" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+					
+					
+					
+						<a href="#" id="filterHeader_7" class="filterHeader" onclick="showFilter(7); return false;">
+							career
+						</a>
+					
+					
+					
+						<div class="relative">
+						<div id="filter_7" class="filterOptions">
+							<div class="wrapper">
+							<table>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-academiclevel-UG" name="filter-academiclevel-UG" type="checkbox" onclick="document.getElementById('filter_7').style.visibility='hidden'; document.getElementById('filterUpdate_7').style.display='block'; submitFilterForm();"  />
+										<label for="filter-academiclevel-UG"> Undergraduate</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-academiclevel-GR" name="filter-academiclevel-GR" type="checkbox" onclick="document.getElementById('filter_7').style.visibility='hidden'; document.getElementById('filterUpdate_7').style.display='block'; submitFilterForm();"  />
+										<label for="filter-academiclevel-GR"> Graduate</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-academiclevel-GSB" name="filter-academiclevel-GSB" type="checkbox" onclick="document.getElementById('filter_7').style.visibility='hidden'; document.getElementById('filterUpdate_7').style.display='block'; submitFilterForm();"  />
+										<label for="filter-academiclevel-GSB"> Graduate School of Business</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-academiclevel-LAW" name="filter-academiclevel-LAW" type="checkbox" onclick="document.getElementById('filter_7').style.visibility='hidden'; document.getElementById('filterUpdate_7').style.display='block'; submitFilterForm();"  />
+										<label for="filter-academiclevel-LAW"> Law School</label>
+									</td></tr>
+								
+									<tr><td class="filterCell">
+									
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										<input id="filter-academiclevel-MED" name="filter-academiclevel-MED" type="checkbox" onclick="document.getElementById('filter_7').style.visibility='hidden'; document.getElementById('filterUpdate_7').style.display='block'; submitFilterForm();"  />
+										<label for="filter-academiclevel-MED"> Medical School</label>
+									</td></tr>
+								
+							</table>
+							</div>
+						</div>
+					
+						<script type="text/javascript">
+							document.getElementById("filter_7").style.display = "none";
+						</script>
+					
+					<div id="filterUpdate_7" class="filterUpdate noDisplay">updating results...</div>
+					</div>
+				
+			
+			<input type="hidden" name="collapse" id="collapsedFilters" value="" />
+			
+			</div>
+			<input type="submit" id="filterSubmit" value="Filter Results"/>
+			<script type="text/javascript">
+				document.getElementById("filterSubmit").style.display = "none";
+			</script>
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript" >
+	//
+	if(document.getElementById('filter-term-Winter')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-term-Winter" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-departmentcode-LINGUIST')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-departmentcode-LINGUIST" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-catalognumber-LINGUIST')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-catalognumber-LINGUIST" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-term-Autumn')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-term-Autumn" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-term-Spring')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-term-Spring" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-coursestatus-Active')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-coursestatus-Active" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	if(document.getElementById('filter-catalognumber-LINGUIST')) { }
+	else
+	{
+		var newInput = document.createElement('div');
+		newInput.innerHTML = '<input type="hidden" name="filter-catalognumber-LINGUIST" value="on"/>';
+		document.getElementById('coursesearch_filter').appendChild(newInput);
+	}
+	//
+	
+	var collapsed = '';
+	
+	showFilter = function(id)
+	{
+		changeStatus(id, true);
+	};
+
+	hideFilter = function(id)
+	{
+		changeStatus(id, false);
+	};
+
+	var animating = false;
+	
+	changeStatus = function(id, visible)
+	{
+		if(animating)
+			return;
+		
+		if(visible) {
+			animating = true;
+			Effect.BlindDown('filter_' + id, {duration:0.3, afterFinish: function(){animating = false;}});
+			document.getElementById('filterHeader_' + id).onclick = function() { hideFilter(id); return false; };
+		}
+		else {
+			animating = true;
+			Effect.BlindUp('filter_' + id, {duration:0.3, afterFinish: function(){animating = false;}});
+			document.getElementById('filterHeader_' + id).onclick = function() { showFilter(id); return false; };
+		}
+		
+		if(collapsed.indexOf(',' + id + ',') != -1)
+		{
+			collapsed = collapsed.substring(0, collapsed.indexOf(',' + id + ',')) + collapsed.substring(collapsed.indexOf(',' + id + ',') + (',' + id).length);
+		}
+		else
+		{
+			if(collapsed.length == 0)
+				collapsed = ',';
+
+			collapsed += id;
+			collapsed += ',';
+		}
+	};
+
+	submitFilterForm = function()
+	{
+		document.getElementById('collapsedFilters').value = collapsed;
+		document.getElementById('coursesearch_filter').submit();
+	};
+	
+</script>
+		
+	</div>
+	
+	
+
+<div id="pagination">
+	
+ 	<span id="pageLabel">Page:</span>
+ 	
+		
+		
+			
+				<span class="currentPage">1</span>
+			
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=1&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=1&amp;filter-coursestatus-Active=on'); return false;">2</a>
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=2&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=2&amp;filter-coursestatus-Active=on'); return false;">3</a>
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=3&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=3&amp;filter-coursestatus-Active=on'); return false;">4</a>
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=4&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=4&amp;filter-coursestatus-Active=on'); return false;">5</a>
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=5&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=5&amp;filter-coursestatus-Active=on'); return false;">6</a>
+			
+		
+	
+		
+		
+			
+			
+				<a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=6&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=6&amp;filter-coursestatus-Active=on'); return false;">7</a>
+			
+		
+	
+	
+		
+	   |
+	   <a href="search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=1&amp;filter-coursestatus-Active=on" onclick="changePage('search;jsessionid=1fqc4hs7fmoba1eqcsd6bi8ssu?q=LINGUIST&amp;view=catalog&amp;filter-term-Winter=on&amp;filter-departmentcode-LINGUIST=on&amp;filter-catalognumber-LINGUIST=on&amp;academicYear=20182019&amp;filter-term-Autumn=on&amp;filter-term-Spring=on&amp;page=1&amp;filter-coursestatus-Active=on'); return false;">next &raquo;</a>
+	
+</div>
+<script type="text/javascript">
+
+	changePage = function(link)
+	{
+		window.location = link + "&collapse=" + collapsed;
+	};
+	
+</script>
+
+	  
+  </div>
+  
+  <!--  FOOTER  -->    
+
+<div id="footerStripe">  	  	
+  	&copy; Stanford University |
+  	<a href="http://stanford.edu/site/terms.html">Terms of Use</a> |
+  	<a href="http://stanford.edu/site/copyright.html">Copyright Complaints</a>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3165447-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  
+  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/effects.js"></script>
+	<script type="text/javascript">
+		var scheduleAnimating = false;
+
+		hideSchedule = function(id)
+		{
+			if(scheduleAnimating)
+				return false;
+
+			scheduleAnimating = true;
+			
+			Effect.BlindUp('schedule_' + id, {duration:0.5, afterFinish: function(effect) { scheduleAnimating = false;} });
+	
+			var link = document.getElementById('scheduleLink_' + id);
+			link.onclick = function() { return showSchedule(id); };
+	
+			return false;
+		};
+	
+		showSchedule = function(id)
+		{
+			if(scheduleAnimating)
+				return false;
+
+			scheduleAnimating = true;
+			
+			Effect.BlindDown('schedule_' + id, {duration:0.5, afterFinish: function(effect) { scheduleAnimating = false;} });
+	
+			var link = document.getElementById('scheduleLink_' + id);
+			link.onclick = function() { return hideSchedule(id); };
+	
+			return false;
+		};
+	
+		hideFull = function(id)
+		{
+			document.getElementById('shortDescription_' + id).style.display = 'block';
+			document.getElementById('fullDescription_' + id).style.display = 'none';
+		};
+	
+		showFull = function(id)
+		{
+			document.getElementById('shortDescription_' + id).style.display = 'none';
+			document.getElementById('fullDescription_' + id).style.display = 'block';
+		};
+
+		hideFullInstr = function(id)
+		{
+			document.getElementById('shortInstructors_' + id).style.display = 'block';
+			document.getElementById('fullInstructors_' + id).style.display = 'none';
+		};
+	
+		showFullInstr = function(id)
+		{
+			document.getElementById('shortInstructors_' + id).style.display = 'none';
+			document.getElementById('fullInstructors_' + id).style.display = 'block';
+		};
+	</script>
+  
+</body>
+</html>
